@@ -19,6 +19,10 @@ Time feature is scaled by StandardScaler -> range between 0 to 1
 And Amount feature is scaled by RobustScaler -> deals better with outliers
 ![Example Image](images/two_features.png)
 
+# Random undersampling
+To overcome the class imbalance in the dataset and create a balanced dataset, I reduce the number of instances in the majority class. This ensures that the machine learning model can learn to recognize patterns in both classes more effectively.
+After undersampling, the shape of the balanced dataset would be (984, 31)
+
 correlation of fraud/normal transactions with non-redundant features
 ![Example Image](images/corr2.png)
 

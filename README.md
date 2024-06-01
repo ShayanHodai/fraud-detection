@@ -13,12 +13,12 @@ The dataset is highly imbalanced as, less than 1% of total transactions are frau
 
 
 features histograms: as seen, most features are centred around 0
-![Example Image](images/features\histogram.pdf)
+[View the PDF](images/features\histogram.pdf)
 
 Time and Amount features need scaling
 Time feature is scaled by StandardScaler -> range between 0 to 1
 and Amount feature is scaled by RobustScaler -> deals better with outliers
-![Example Image](images/two_features.pdf)
+[View the PDF](images/two_features.pdf)
 
 correlation of fraud/normal transactions with non-redundant features
 ![Example Image](images/corr2.pdf)

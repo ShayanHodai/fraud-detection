@@ -9,11 +9,11 @@ The dataset:
 ![Example Image](images/dataset.png)
 
 The dataset is highly imbalanced as, less than 1% of total transactions are fraud
-![Example Image](images/imbalanced dataset.png)
+![Example Image](images/imbalanced\dataset.png)
 
 
 features histograms: as seen, most features are centred around 0
-![Example Image](images/features histogram.png)
+![Example Image](images/features\histogram.png)
 
 Time and Amount features need scaling
 Time feature is scaled by StandardScaler -> range between 0 to 1
@@ -26,13 +26,13 @@ correlation of fraud/normal transactions with non-redundant features
 Machine learning classification models evaluation metrics:
 As the cost of False Positive and False Negative in this problem varies, Precision and Recall and, eventually, f1-score are the evaluation metrics of the model performance
 Logistic regression:
-![Example Image](images/logistic regression.png)
+![Example Image](images/logistic\regression.png)
 KNN:
 ![Example Image](images/KNN.png)
 SVM:
 ![Example Image](images/SVM.png)
 Decision tree classifier, which is highly overfitting:
-![Example Image](images/Decision Tree.png)
+![Example Image](images/Decision\Tree.png)
 
 ROC carve:
 ![Example Image](images/ROC.png)
@@ -41,4 +41,4 @@ Fine-tuning the best performing model, which is logistic regression:
 ![Example Image](images/fine-tuning.png)
 
 Evaluation on the test set:
-![Example Image](images/evaluation on test.png)
+![Example Image](images/evaluation\on\test.png)

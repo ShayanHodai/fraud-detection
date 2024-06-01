@@ -24,12 +24,16 @@ correlation of fraud/normal transactions with non-redundant features
 
 # Machine learning models:
 As the cost of False Positive and False Negative in this problem varies, Precision and Recall and, eventually, f1-score are the evaluation metrics of the model performance
+
 Logistic regression:
 ![Example Image](images/logistic%20regression.png)
+
 KNN:
 ![Example Image](images/KNN.png)
+
 SVM:
 ![Example Image](images/SVM.png)
+
 Decision tree classifier, which is highly overfitting:
 ![Example Image](images/Decision%20Tree.png)
 

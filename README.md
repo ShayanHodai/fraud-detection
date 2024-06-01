@@ -11,12 +11,12 @@ The dataset:
 The dataset is highly imbalanced as, less than 1% of total transactions are fraud
 ![Example Image](images/imbalanced%20dataset.png)
 
-features histograms: as seen, most features are centred around 0
+Features histograms: as seen, most features are centred around 0
 ![Example Image](images/features%20histogram.png)
 
 Time and Amount features need scaling
 Time feature is scaled by StandardScaler -> range between 0 to 1
-and Amount feature is scaled by RobustScaler -> deals better with outliers
+And Amount feature is scaled by RobustScaler -> deals better with outliers
 ![Example Image](images/two_features.png)
 
 correlation of fraud/normal transactions with non-redundant features

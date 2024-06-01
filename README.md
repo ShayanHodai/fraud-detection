@@ -1,11 +1,34 @@
 # Fraud Detection
-The repository contains code to analyze credit card transactions and predict whether transactions are fraudulent using machine learning algorithms. Machine learning workflow has been followed to train and fine-tune classification models. The steps are data collection and exploration, data processing, feature correlations, automating processing by pipelines, building models, evaluating performance by cross-validation, and fine-tuning the best-performing model based on precision, recall, and F1 score metrics.
-The link to the kaggle dataset is: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
-# To work with the code, clone the repository: 
+## Description
+
+This repository contains code to analyze credit card transactions and predict whether transactions are fraudulent using machine learning algorithms. The machine learning workflow includes data collection and exploration, data processing, feature correlation analysis, automated processing using pipelines, model building, performance evaluation through cross-validation, and fine-tuning the best-performing model based on precision, recall, and F1 score metrics.
+
+The dataset used in this project is sourced from Kaggle: [Credit Card Fraud Detection Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Dataset](#dataset)
+- [Data Processing](#data-processing)
+- [Feature Selection](#feature-selection)
+- [Machine Learning Models](#machine-learning-models)
+- [Model Evaluation](#model-evaluation)
+- [Fine-Tuning](#fine-tuning)
+- [Evaluation on Test Set](#evaluation-on-test-set)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Installation
+
+To work with the code, clone the repository:
+
+```bash
 git clone https://github.com/ShayanHodai/fraud-detection.git
 
-# The dataset:
+## Dataset
+
 ![Example Image](images/dataset.png)
 
 # The dataset is highly imbalanced as, less than 1% of total transactions are fraud

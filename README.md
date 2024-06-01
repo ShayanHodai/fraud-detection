@@ -3,3 +3,6 @@ The repository contains code to analyze credit card transactions and predict whe
 the link to kaggle dataset is: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 clone the repository, git clone https://github.com/ShayanHodai/fraud-detection.git
+
+The dataset:
+![Example Image](images/dataset.png)

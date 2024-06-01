@@ -26,53 +26,84 @@ To work with the code, clone the repository:
 
 ```bash
 git clone https://github.com/ShayanHodai/fraud-detection.git
+```
 
 ## Dataset
 
 ![Example Image](images/dataset.png)
 
-# The dataset is highly imbalanced as, less than 1% of total transactions are fraud
+The dataset is highly imbalanced, with less than 1% of total transactions being fraudulent.
+
 ![Example Image](images/imbalanced%20dataset.png)
 
-Features histograms: as seen, most features are centred around 0
+## Data Processing
+Features histograms: Most features are centered around 0.
 ![Example Image](images/features%20histogram.png)
 
-Time and Amount features need scaling
-Time feature is scaled by StandardScaler -> range between 0 to 1
-And Amount feature is scaled by RobustScaler -> deals better with outliers
+### Scaling
+
+- `Time feature` is scaled using StandardScaler, resulting in a range between 0 and 1.
+- `Amount feature` is scaled using RobustScaler, which deals better with outliers.
+
 ![Example Image](images/two_features.png)
 
-# Random undersampling
-To overcome the class imbalance in the dataset and create a balanced dataset, I reduce the number of instances in the majority class. This ensures that the machine learning model can learn to recognize patterns in both classes more effectively.
-After undersampling, the shape of the balanced dataset would be (984, 31)
+## Feature Selection
+
+To address class imbalance in the dataset and create a balanced dataset, random undersampling is applied to reduce the number of instances in the majority class. This ensures that the machine learning model can learn to recognize patterns in both classes more effectively. After undersampling, the shape of the balanced dataset is (984, 31).
 
 correlation of fraud/normal transactions with non-redundant features
+
 ![Example Image](images/corr2.png)
 
-# Machine learning models:
-As the cost of False Positive and False Negative in this problem varies, Precision and Recall and, eventually, f1-score are the evaluation metrics of the model performance
+## Machine Learning Models:
 
-Logistic regression:
+The cost of false positives and false negatives varies in this problem, so precision, recall, and F1-score are used as evaluation metrics.
+
+### Logistic regression
 
 ![Example Image](images/logistic%20regression.png)
 
-KNN:
+### KNN
 
 ![Example Image](images/KNN.png)
 
-SVM:
+### SVM
 
 ![Example Image](images/SVM.png)
 
-Decision tree classifier, which is highly overfitting:
-
+### Decision tree classifier
+This model tends to overfit.
 ![Example Image](images/Decision%20Tree.png)
 
-# ROC carve:
+## Model Evaluation
+ROC carve:
 ![Example Image](images/ROC.png)
 
-# Fine-tuning the best performing model, which is logistic regression:
+## Fine-Tuning 
+Fine-tuning the best performing model, which is logistic regression:
 ![Example Image](images/fine-tuning.png)
 
-# Evaluation on the test set:
+## Evaluation on Test Set
 ![Example Image](images/evaluation%20on%20test.png)
+
+
+## Contributing
+
+Contributions to this project are welcome. To contribute, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a new Pull Request.
+
+Please ensure your code adheres to the project's coding standards and includes
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For any questions or suggestions, please contact:
+shayan.hodai@gmail.com

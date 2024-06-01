@@ -30,12 +30,15 @@ Logistic regression:
 ![Example Image](images/logistic%20regression.png)
 
 KNN:
+
 ![Example Image](images/KNN.png)
 
 SVM:
+
 ![Example Image](images/SVM.png)
 
 Decision tree classifier, which is highly overfitting:
+
 ![Example Image](images/Decision%20Tree.png)
 
 # ROC carve:

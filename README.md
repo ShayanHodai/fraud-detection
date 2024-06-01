@@ -9,8 +9,7 @@ The dataset:
 ![Example Image](images/dataset.png)
 
 The dataset is highly imbalanced as, less than 1% of total transactions are fraud
-![Example Image](images/imbalanced%dataset.png)
-
+![Example Image](images/imbalanced%20dataset.png)
 
 features histograms: as seen, most features are centred around 0
 [View the PDF](images/features\histogram.pdf)

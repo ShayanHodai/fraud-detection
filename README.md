@@ -49,9 +49,9 @@ Features histograms: Most features are centered around 0.
 
 ## Feature Selection
 
-To address class imbalance in the dataset and create a balanced dataset, random undersampling is applied to reduce the number of instances in the majority class. This ensures that the machine learning model can learn to recognize patterns in both classes more effectively. After undersampling, the shape of the balanced dataset is (984, 31).
+To address class imbalance in the dataset and create a balanced dataset, `random undersampling` is applied to reduce the number of instances in the majority class. This ensures that the machine learning model can learn to recognize patterns in both classes more effectively. After undersampling, the shape of the balanced dataset is (984, 31).
 
-correlation of fraud/normal transactions with non-redundant features
+Correlation of fraud/normal transactions with non-redundant features
 
 ![Example Image](images/corr2.png)
 
@@ -76,7 +76,7 @@ This model tends to overfit.
 ![Example Image](images/Decision%20Tree.png)
 
 ## Model Evaluation
-ROC carve:
+`ROC carve:`
 ![Example Image](images/ROC.png)
 
 ## Fine-Tuning 

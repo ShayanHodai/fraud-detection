@@ -26,6 +26,7 @@ correlation of fraud/normal transactions with non-redundant features
 As the cost of False Positive and False Negative in this problem varies, Precision and Recall and, eventually, f1-score are the evaluation metrics of the model performance
 
 Logistic regression:
+
 ![Example Image](images/logistic%20regression.png)
 
 KNN:
